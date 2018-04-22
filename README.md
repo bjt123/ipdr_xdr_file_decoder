@@ -10,11 +10,11 @@ The python scripts contained help solve this problem.
 
 Given an IPDR-XDR file encoded as defined by the TM-Forum encoding format,
 these scripts allow you to decode it into an XML format that is human readable. 
+(The reason why XML is used is to illustrate the Ipdr Elementary Type of each decoded element).
 
 Included are python scripts that also allow you to load the IPDR-XDR file metadata
 into python objects, so you can manipulate and analyse them.
 
-The reason why XML is used is to tag the classes of the Ipdr Elementary Types.
 
 Note that a key difference between the TM-Forum standard for IPDR-XDR files and 
 the traditional python xdrlib library, is that the TM-Forum encoding standard does not
