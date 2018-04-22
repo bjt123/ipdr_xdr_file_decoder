@@ -18,7 +18,8 @@ The reason why XML is used is to tag the classes of the Ipdr Elementary Types.
 
 Note that a key difference between the TM-Forum standard for IPDR-XDR files and 
 the traditional python xdrlib library, is that the TM-Forum encoding standard does not
-quad-align / zero-pad the fields within an XDR file.  As such, the xdrlib is not used in this project.
+quad-align / zero-pad the fields within an XDR file.  As such, the xdrlib python library is not used 
+for packing / unpacking XDR structures within this project.
 
 ## Limitations
 
