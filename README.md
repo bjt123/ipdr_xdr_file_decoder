@@ -21,7 +21,7 @@ quad-align the fields on an XDR file.  As such, the xdrlib is not used in this p
 
 Given the "example.xdr" file provide, executing the script:
 
-> ipdr_xdr_to_xml.py
+> ipdr_xdr_to_xml.py example.xdr
 
 Will generate an "example.xdr.xml" file, which contains the following:
 ```
