@@ -2,9 +2,9 @@
 
 ## Introduction
 
-You are integrating a Telecommunications solution and you need to verify
-the contents of IPDR XDR files, what do you do? You can't use wireshark,
-you can't read them as text files, they are binary formatted.  
+You need to verify the contents of computer generated IPDR XDR files, what do you do? 
+
+You can't use wireshark, you can't read them as text files, they are binary formatted.  
 
 The python scripts contained help solve this problem.
 
