@@ -17,6 +17,12 @@ Note that a key difference between the TM-FORUM standard for IPDR-XDR files and
 the traditional python xdrlib library, is that the TM-FORUM standard does not
 quad-align the fields on an XDR file.  As such, the xdrlib is not used in this project.
 
+## Limitations
+
+These python scripts are written for the use of analyzing IPDR-XDR files only,
+the scripts are not written with the intention of being used to translate IPDR-XDR
+files within a business application or production build.  Use at own risk.
+
 ## Example Use
 
 Given the "example.xdr" file provide, executing the script:
