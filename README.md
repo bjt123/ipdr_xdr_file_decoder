@@ -9,7 +9,10 @@ You can't use wireshark, you can't read them as text files, they are binary form
 The python scripts contained help solve this problem.
 
 Given an IPDR-XDR file encoded as defined by the TM-FORUM,
-these scripts can decode it into an XML format that is human readable.
+these scripts allow you to decode it into an XML format that is human readable. 
+
+Included are python scripts that also allow you to load the IPDR-XDR file metadata
+into python objects, so you can manipulate and analyse them.
 
 The reason why XML is used is to tag the classes of the Ipdr Elementary Types.
 
