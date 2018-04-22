@@ -24,7 +24,7 @@ Given the "example.xdr" file provide, executing the script:
 > ipdr_xdr_to_xml.py
 
 Will generate an "example.xdr.xml" file, which contains the following:
-"""
+```
 <?xml version="1.0" ?>
 <IPDRDoc>
     <IPDRHeader>
@@ -127,4 +127,4 @@ Will generate an "example.xdr.xml" file, which contains the following:
         </IPDRStreamElement>
     </array>
 </IPDRDoc>
-"""
+```
