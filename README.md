@@ -2,7 +2,7 @@
 
 ## Introduction
 
-You need to verify the contents of computer generated IPDR XDR files, what do you do? 
+You need to verify the contents of computer generated TM-Forum standardised IPDR XDR files, what do you do? 
 
 You can't use wireshark, you can't read them as text files, they are binary formatted.  
 
